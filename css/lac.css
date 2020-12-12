@@ -1,0 +1,801 @@
+h1,h2,h3,h4,h5,h6 {
+  font-family: "Merriweather";
+}
+
+p {
+  font-family: poppins;
+  font-size: 16px;
+  color: #383838;
+  font-weight: 400;
+  line-height: 150%;
+  max-width: 700px;
+}
+
+h1 {
+  font-weight: 500;
+  font-size: 48px;
+  color: #0a0a0a;
+  align-items: center;
+  /* padding-bottom: 240px; */
+}
+@media screen and (max-width: 768px){
+  h1{
+    font-size: 36px;
+    align-items: center;
+    /* padding-bottom: 240px; */
+}
+}
+
+
+h2 {
+  font-weight: 500;
+  font-size: 39px;
+  color: #0a0a0a;
+}
+/* @media (max-w) */
+@media screen and (max-width: 768px){
+  h2{
+    font-size: 28px;
+    align-items: center;
+    margin-bottom: 0px;
+}
+}
+
+
+h3 {
+  font-weight: 500;
+  font-size: 31px;
+  color: #0a0a0a;
+}
+@media screen and (max-width: 768px){
+  h3{
+    font-size: 24px;
+}
+}
+h4 {
+  font-weight: 300;
+  font-size: 25px;
+  color: #b0b0b0;
+ }
+ 
+
+  .header-lac {
+  display: flex;
+  justify-content: space-between;
+  background-color: transparent; 
+  padding-right: 80px;
+  background-image: url(../images/lacbackground.jpg);  
+  height: 640px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+ 
+  
+ }
+
+/* .lac-home {
+  background-image: url(../images/lacbackground.jpg);
+  width: 100%;
+  height: 640px;
+  background-size: cover;
+  background-position: center;
+} */
+ .header-lac, a{
+   padding-top: 32px;
+ }
+ #my-logo a{
+  padding: 100px;
+  color: #fff;
+  margin-left: 80px;
+  text-decoration: none;
+  font-family: "Poppins";
+  font-size: 18px;
+  padding-left: 80px;
+}
+.topnav-right{
+  display: flex;
+  position: absolute;
+  justify-content: flex-start;
+  width: 200px;
+  margin-top: -390px;
+  margin-left: 70%;
+}
+
+
+.menu{
+  font-family: "Poppins";
+  margin-right: 80px;
+  text-decoration: none;
+  color: #fff;
+  cursor: pointer;
+  font-size: 12px;
+  margin-top: 360px;
+  position: relative;
+}
+.menu:after{
+  content: '';
+  position: absolute;
+  width: 0; height: 3px;
+  display: block;
+  margin-top: 5px;
+  right: 0;
+  background: #e0ff4f;
+  transition: width .2s ease;
+  -webkit-transition: width .2s ease;
+}
+ 
+.menu:hover:after{
+  width: 100%;
+  left: 0;
+  background: #e0ff4f;
+}
+ 
+  h1 {
+  width: 100%;
+  padding-top: 240px;  
+  color: white;
+  text-align: center;
+  justify-content: center;
+  /* margin-top: -500px;  */
+  padding-bottom: 240px;
+  align-items: center;
+} 
+.lac-overlay{
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.65);
+  height: 640px;
+  margin-top: -640px;
+}
+/* .lac-intro{
+  display: flex;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.lac-intro p{
+  width: 100%;
+  margin: auto;
+  padding-top: 64px;
+} */
+.lac-project{
+  width: 100%;
+  display: flex;
+  justify-content: center; 
+  padding-top: 80px;
+  align-items: center;
+  list-style-type: none;
+  /* flex-direction: row;  */
+}
+.lac-project h2{
+  padding-bottom: 16px;
+  text-align: center;
+}
+.lac-project p{
+  width: 96%;
+}
+.lac-about{
+   padding-left: 20px; 
+   margin: 0 auto; 
+}
+.lac-project-proto{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+.lac-project-proto, img{
+  width: 40%;
+  margin: 0 auto;
+}
+
+.lac-project-proto a{
+  background-color: black;
+  color: #e0ff4f;
+  text-decoration: none;
+  font-family: "Poppins";
+  font-size: 14px;
+  font-weight: 500;
+  padding: 4px 16px;
+  border:  #e0ff4f 1px solid;
+  border-radius: 6px;
+  height: 30px;
+  width: 160px;
+  margin: 0 auto;
+  margin-top: 16px;
+}
+.teams{
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  padding-top: 48px;
+  justify-content: space-evenly;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+ 
+ .tools ul{
+  display: block;
+  width: 50%;
+} 
+.figma {
+  width: 64%;
+  
+}
+.miro {
+  width: 48%;
+  padding-left: 8px;
+}
+.audience{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 20px;
+  padding-top: 80px;
+  width: 100%; 
+  align-items: center;
+}
+.who h2{
+   padding-bottom: 16px; 
+   text-align: center; 
+  width: 100%;
+  margin: 0 auto;
+}
+.keydemand {
+  padding-top: 80px;
+  padding-bottom: 16px;
+  text-align: center;
+}
+.insight{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  }
+
+  /* .insight{
+    display: flex;
+  } */
+.insight p{
+  font-size: 12px;
+  display: flex;
+  color: #0a0a0a;
+  width: 160px;
+  height: 120px;
+  padding-top: 8px;
+  padding-left: 8px;
+  padding-right: 8px;
+  margin-left: 4px;
+  margin-right: 4px;
+  border-radius: 2px; 
+  align-items: center;
+  text-align: center;
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffffff+0,ededed+35,ededed+35,f3f3f3+50,ffffff+100 */
+background: rgb(255,255,255); /* Old browsers */
+background: -moz-linear-gradient(-45deg,  rgba(255,255,255,1) 0%, rgba(237,237,237,1) 35%, rgba(237,237,237,1) 35%, rgba(243,243,243,1) 50%, rgba(255,255,255,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg,  rgba(255,255,255,1) 0%,rgba(237,237,237,1) 35%,rgba(237,237,237,1) 35%,rgba(243,243,243,1) 50%,rgba(255,255,255,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg,  rgba(255,255,255,1) 0%,rgba(237,237,237,1) 35%,rgba(237,237,237,1) 35%,rgba(243,243,243,1) 50%,rgba(255,255,255,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}
+.quant{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+}
+.adding h3{
+ text-align: center;
+ padding-bottom: 16px;
+ /* padding-top: 80px; */
+}
+.numbers {
+  display: flex;
+  justify-content: center;
+   align-items: center; 
+  /* flex-direction: row; */
+  /* width: 100%;
+  height: auto; */
+}
+.pc{
+  display: flex;
+  color: #0a0a0a;
+  height: 150px;
+  width: 150px;
+  background-size: cover;
+  align-items: center;
+  margin: 16px;
+  /* justify-content: center; */
+  flex-direction: column;
+  }
+.fiftynine{
+  background-image:url(../images/fiftyninepc.png);
+}
+.fiftyone{
+  background-image: url(../images/fiftyonepc.png);
+}
+.eightyfive{
+  background-image: url(../images/eightyfivepc.png);
+}
+.fiftythree{
+  background-image: url(../images/fiftythreepc.png);
+}
+.numbers p{
+  margin-top: 160px;
+  text-align: center;
+}
+.booking {
+  padding-top: 150px;
+  width: 64%;
+  text-align: center;
+  margin: auto;
+}
+.graph {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding-top: 24px;
+}
+.graph img{
+  width: 100%;
+}
+.supply{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.experts{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 80px;
+  padding-bottom: 16px;
+  flex-direction: column; 
+}
+.experts p{
+  padding-top: 24px;
+  margin: 0 auto;
+  text-align: left;
+}
+.keysupply {
+  padding-top: 80px;
+  padding-bottom: 24px;
+  text-align: center;
+  margin: 0 auto;
+}
+.supplyinsight{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  }
+  .supplyinsight p{
+    font-size: 12px;
+    display: flex;
+    color: #0a0a0a;
+    width: 160px;
+    height: 120px;
+    padding-top: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-left: 4px;
+    margin-right: 4px;
+    border-radius: 2px; 
+    align-items: center;
+    
+    text-align: center;
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffffff+0,ededed+35,ededed+35,f3f3f3+50,ffffff+100 */
+background: rgb(255,255,255); /* Old browsers */
+background: -moz-linear-gradient(-45deg,  rgba(255,255,255,1) 0%, rgba(237,237,237,1) 35%, rgba(237,237,237,1) 35%, rgba(243,243,243,1) 50%, rgba(255,255,255,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg,  rgba(255,255,255,1) 0%,rgba(237,237,237,1) 35%,rgba(237,237,237,1) 35%,rgba(243,243,243,1) 50%,rgba(255,255,255,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg,  rgba(255,255,255,1) 0%,rgba(237,237,237,1) 35%,rgba(237,237,237,1) 35%,rgba(243,243,243,1) 50%,rgba(255,255,255,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+.data{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+}
+.research{
+  text-align: center;
+} 
+.research h2{
+  padding-bottom:24px;
+}
+.prior{
+  text-align: left;
+}
+.personas{
+  display: flex;
+  justify-content: center;
+}
+.card-deck{
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+  }
+
+.card-img-top{
+  height: auto;
+  width: auto;
+  padding-top: 24px;
+}
+.card{
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffffff+0,ededed+35,ededed+35,f3f3f3+50,ffffff+100 */
+background: rgb(255,255,255); /* Old browsers */
+background: -moz-linear-gradient(-45deg,  rgba(255,255,255,1) 0%, rgba(237,237,237,1) 35%, rgba(237,237,237,1) 35%, rgba(243,243,243,1) 50%, rgba(255,255,255,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg,  rgba(255,255,255,1) 0%,rgba(237,237,237,1) 35%,rgba(237,237,237,1) 35%,rgba(243,243,243,1) 50%,rgba(255,255,255,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg,  rgba(255,255,255,1) 0%,rgba(237,237,237,1) 35%,rgba(237,237,237,1) 35%,rgba(243,243,243,1) 50%,rgba(255,255,255,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+  border: 1px#ffffff solid;
+}
+.card h4{
+  color: #0a0a0a;
+  font-weight: 500;
+}
+.comp{
+  display:flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 80px;
+  align-items: center;
+  }
+  .comp h2, p{
+    margin: 0 auto;
+  }
+  .comp h2{
+    padding-bottom: 24px;
+  }
+  .lac-comp{
+    padding-top: 40px;
+   
+  }
+  .journey{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 80px;
+    }
+    .journey h2{
+      margin: 0 auto;
+      padding-bottom: 24px;
+    }
+    .journey p{
+      padding-bottom: 40px;
+    }
+    .journey img{
+      width: 50%;
+      border: 1px rgba(0, 0, 0, 0.15) solid;
+    }
+   
+    .keyopps{
+     text-align: center;
+     margin-top: 80px;
+     padding-bottom: 24px;
+     background-color: rgba(0, 0, 0, 0.1);
+     padding-top: 24px;
+    }
+    .opps{
+      display: flex;
+      justify-content: center;
+       flex-direction: row; 
+      /* align-items: center; */
+      width: 100%;
+      align-items: flex-start; 
+      padding-top: 24px;
+      padding-bottom: 24px;
+      background-color: rgba(0, 0, 0, 0.1);
+    }
+    .opp{
+      justify-content: center;
+      text-align: center;
+      padding-left: 16px;
+      padding-right: 16px;
+    }
+    .opp img{
+      max-width: 40px;
+      align-items: flex-end;
+      padding-bottom: 24px;
+    }
+    .opps p{
+      font-size: 12px;
+      width: 120px;
+      /* padding-top: 24px; */
+      align-items: flex-start;
+    }
+    .pay-opp img{
+      max-height: 96px;
+    }
+ .hypo{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+ }
+ .hypothesis{
+   margin-bottom: 40px;
+   margin-top: 80px;
+   text-align: center;
+ }
+ .demand{
+   display: flex;
+   align-items: flex-start;
+   justify-content: center;
+   flex-direction: column;
+   width: 40%;
+   display: block;
+   padding-left: 24px;
+   padding-right: 24px;
+   
+   }
+   .demsol{
+    margin-top: 40px;
+   }
+ .supplyside{
+   display: flex;
+   align-items: flex-start;
+   justify-content: center;
+   flex-direction: column;
+   width: 40%;
+   display: block;
+   padding-left: 24px;
+   padding-right: 24px;
+ }
+ .supsol{
+  margin-top: 40px;
+ }
+ .evolution{
+   display: flex;
+   justify-content: center;
+    flex-direction: column; 
+    align-items: center; 
+   margin-top: 80px;
+   width: 100%;
+ }
+ .design{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   margin: 0 auto;
+ }
+
+  .evolution h2{
+   padding-bottom: 24px;
+    margin: 0 auto;  
+  }
+  .evolution h3{
+   margin: 0 auto;
+   padding-bottom: 16px;
+   text-align: center;
+ } 
+  .despan {
+   text-align: center;
+   font-size: 12px;
+   font-weight: 300;
+   margin: 0 auto;
+ }
+
+ .iteration-one{
+   display: flex;
+   justify-content: center;
+   width: 100%;
+   /* flex-direction: column; */
+    flex-direction: row; 
+    align-items: center; 
+} 
+ 
+.first{
+   display: flex;
+   flex-direction: column;
+   width: 150px;
+   position : relative;  
+   height: 260px;
+   margin: 24px 16px 24px 16px;
+} 
+.first p{
+  font-size: 12px;
+  text-align: center;
+}
+ 
+ .first img{
+   width: 100%;
+   vertical-align: top;
+   display: flex;
+   flex-direction: column;
+ }
+ .first:after{
+  display: flex;
+  font-size: 12px;
+   content: attr(data-content);
+   color: #ECDEB9;
+   position: absolute; 
+   width: 100%; height: 100%;
+   top: 0; left: 0; right:0;
+   background: rgba(0,0,26,0.7);
+   opacity:0;
+   transition: all 0.5s;
+   -webkit-transition: all 0.5s;
+   text-align: center;
+   padding-top: 100px;
+   border-radius: 5px;
+   align-items: center;
+}
+
+  .first:hover:after {
+    opacity: 1;
+  }
+
+  .first p{
+    margin-top: 24px;
+    text-align: center;
+  }
+   .one{
+     width: 150px;
+     display: flex;
+   }
+   .despan2 {
+    text-align: center;
+    font-size: 12px;
+    font-weight: 300;
+    margin: 0 auto;
+  }
+
+.iteration-2{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  /* flex-direction: column; */
+   flex-direction: row; 
+   align-items: center; 
+   margin-bottom: 80px;
+} 
+
+.second{
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+  position : relative;  
+  height: 260px;
+   margin: 24px 16px 24px 16px; 
+} 
+.two{
+  width: 150px;
+  display: flex;
+}
+.second p{
+    font-size: 12px;
+    text-align: center;
+  }
+.second img{
+  width: 115%;
+  vertical-align: top;
+  display: flex;
+  flex-direction: column;
+
+}
+.second:after{
+  display: flex;
+  content: attr(data-content);
+  color: #ECDEB9;
+  font-size: 12px;
+  position: absolute; 
+  width: 90%; height: 102%;
+  top: 0; left: 0; right:0;
+  background: rgba(0,0,26,0.7);
+  opacity:0;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  text-align: center;
+  padding-top: 100px;
+  border-radius: 15px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  margin-left: 18px;
+  margin-bottom: 15px;
+}
+
+ .second:hover:after {
+   opacity: 1;
+ }
+ .last{
+  display: flex;
+  justify-content: center;
+   align-items: center;
+   margin-top: 80px;
+ }
+ .post h3{
+  text-align: center;
+  padding-bottom: 16px;
+ }
+ .third{
+  display: flex;
+  justify-content: center;
+   align-items: center;
+   margin-top: 24px;
+ }
+
+ .percent{
+  display: flex;
+  color: #0a0a0a;
+  height: 150px;
+  width: 150px;
+  background-size: cover;
+  align-items: center;
+  margin: 16px;
+  /* justify-content: center; */
+  flex-direction: column;
+  }
+ 
+ .eightysix{
+  background-image:url(../images/eightysixpc.png);
+}
+.eighty{
+  background-image: url(../images/eightypc.png);
+}
+.hundred{
+  background-image: url(../images/hundredpc.png);
+}
+.forty{
+  background-image: url(../images/fortypc.png);
+}
+.third p{
+  margin-top: 160px;
+  text-align: center;
+}
+ .final{
+  display: flex;
+  justify-content: center;
+   align-items: center;
+   margin-top: 140px;
+   flex-direction: column;
+ }
+ .hifi h2{
+   text-align: center;
+}
+.membership {
+  margin-top: 40px;
+  position: relative;
+  margin: 0 auto;
+}
+.membermock{
+  display: flex;
+  justify-content: center;
+   z-index: 1; 
+  height: 500px;
+  width: 270px;
+  position: absolute;
+  margin-right: 40px;
+  margin-bottom: 40px;
+  }
+
+video{
+ position: absolute;
+ margin-left: 30px;
+ margin-top: 30px;
+ display: flex;
+ justify-content: center;
+ 
+}
+
+ .firstoption{
+   width: 40%;
+   display: flex;
+   text-align: left;
+   align-items: flex-start;
+   flex-direction: column;
+   margin-top: 40px;
+ }
+ 
+
+
+
+
+
+ 
+  
+   
+   
