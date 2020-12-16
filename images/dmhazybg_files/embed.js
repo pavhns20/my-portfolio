@@ -1,1 +1,0 @@
-(function(){console.info('Chat Widget is not available at this time.')})()
