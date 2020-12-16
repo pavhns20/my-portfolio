@@ -3,7 +3,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 p {
-  font-family: poppins;
+  font-family: "Poppins";
   font-size: 16px;
   color: #383838;
   font-weight: 400;
@@ -69,7 +69,8 @@ h4 {
   background-color: transparent;
   padding-right: 80px;
   background-image: url(../images/noddyheader.png);
-  min-height: 640px;
+  height: 690px;
+  background-attachment: fixed;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -77,6 +78,34 @@ h4 {
 }
 .header-nok, a{
   padding-top: 32px;
+}
+.menu{
+  font-family: "Poppins";
+  margin-right: 80px;
+  text-decoration: none;
+  color: #fff;
+  cursor: pointer;
+  font-size: 12px;
+  margin-top: 360px;
+  position: relative;
+}
+.menu:after{
+  content: '';
+  position: absolute;
+  width: 0; height: 3px;
+  display: block;
+  margin-top: 5px;
+  right: 0;
+  color: white;
+  background: #e0ff4f;
+  transition: width .2s ease;
+  -webkit-transition: width .2s ease;
+}
+ 
+.menu:hover:after{
+  width: 100%;
+  left: 0;
+  background: #e0ff4f;
 }
 #my-logo a{
   padding: 100px;
@@ -162,7 +191,10 @@ body {
 
   
 } */
-
+.about h2{
+  text-align: center;
+  padding-bottom: 24px;
+}
 @media screen and (max-width:768px){
   .nok-about h3{
     font-size: 24px;
@@ -382,7 +414,7 @@ li {
 }
 .pro{
   display: flex;
-  padding-top: 48px;
+  padding-top: 24px;
   padding-bottom: 40px;
   margin: auto;
   padding-left: 60px;
